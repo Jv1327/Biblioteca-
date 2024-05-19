@@ -6,6 +6,7 @@ public class Biblioteca {
         meuLivro.setAnoPublicacao(2024);
         meuLivro.setNumeroPaginas(254);
         meuLivro.exibirDetalhes();
+        System.out.println("");
 
         Revista minhaRevista = new Revista();
         minhaRevista.setTitulo("Linguagens de Programação que Atualmente está pagando muito Bem.");
